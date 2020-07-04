@@ -11,7 +11,7 @@ diff out-$$ ans-$$ || exit 1
 echo "引数には自然数を2個指定してください" > ans-$$
 diff out-$$ ans-$$ || exit 1
 
-./gcd.sh 33 55 77	2> out-$$
+./GreatestCommonDivisor.sh 33 55 77	2> out-$$
 echo "引数には自然数を2個指定してください" > ans-$$
 diff out-$$ ans-$$ || exit 1
 
